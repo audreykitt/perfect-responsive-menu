@@ -24,6 +24,11 @@ body {
 		transition: 0.2s 0.5s color ease-in-out;
 	}
 
+	.stop-scrolling {
+		height: 100%;
+		overflow: hidden;
+	  }
+
 	.navigation button svg {
 		display: block;
 		pointer-events: none;
